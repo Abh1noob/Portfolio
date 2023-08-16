@@ -14,7 +14,7 @@ const tilt = Tilt_Prism({
 
 export default function About() {
   return (
-    <>
+    <section className="scroll-mt-30" id='home'>
       <div className="text-[#B4F5F5] absolute top-[15rem] left-[5rem]">
         <motion.p
           className="text-xl"
@@ -81,6 +81,6 @@ export default function About() {
       >
         Website under development, will keep pushing code
       </motion.h1>
-    </>
+    </section>
   );
 }

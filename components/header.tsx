@@ -22,7 +22,9 @@ export default function Header() {
               initial={{ y: -150, x: "", opacity: 0 }}
               animate={{ y: 0, x: "", opacity: 1 }}
             >
-              <Link href={link.hash}className="hover:text-[#F5B4B4] font-bold">{link.name}</Link>
+              <Link href={link.hash} className="hover:text-[#F5B4B4] font-bold">
+                {link.name}
+              </Link>
             </motion.li>
           ))}
         </ul>
