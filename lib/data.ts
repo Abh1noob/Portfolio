@@ -1,10 +1,15 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-// import corpcommentImg from "@/public/corpcomment.png";
-// import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
+import img1 from "@/lib/assets/c.svg"
+import img2 from "@/lib/assets/c++.svg"
+import img3 from "@/lib/assets/css.svg"
+import img4 from "@/lib/assets/flutter.svg"
+import img5 from "@/lib/assets/html-5.svg"
+import img6 from "@/lib/assets/java.svg"
+import img7 from "@/lib/assets/javascript.svg"
+import img8 from "@/lib/assets/mysql.svg"
+import img9 from "@/lib/assets/next.js.svg"
+import img10 from "@/lib/assets/tailwindcss.svg"
+import img11 from "@/lib/assets/python.svg"
+import img12 from "@/lib/assets/react.svg"
 
 export const links = [
   {
@@ -29,71 +34,53 @@ export const links = [
   },
 ] as const;
 
-// export const experiencesData = [
-//   {
-//     title: "Graduated bootcamp",
-//     location: "Miami, FL",
-//     description:
-//       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-//     icon: React.createElement(LuGraduationCap),
-//     date: "2019",
-//   },
-//   {
-//     title: "Front-End Developer",
-//     location: "Orlando, FL",
-//     description:
-//       "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-//     icon: React.createElement(CgWorkAlt),
-//     date: "2019 - 2021",
-//   },
-//   {
-//     title: "Full-Stack Developer",
-//     location: "Houston, TX",
-//     description:
-//       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-//     icon: React.createElement(FaReact),
-//     date: "2021 - present",
-//   },
-// ] as const;
-
-// export const projectsData = [
-//   {
-//     title: "CorpComment",
-//     description:
-//       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-//     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-//     imageUrl: corpcommentImg,
-//   },
-//   {
-//     title: "rmtDev",
-//     description:
-//       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-//     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-//     imageUrl: rmtdevImg,
-//   },
-//   {
-//     title: "Word Analytics",
-//     description:
-//       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-//     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-//     imageUrl: wordanalyticsImg,
-//   },
-// ] as const;
-
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "C",
-  "C++",
-  "Java",
-  "Git",
-  "Tailwind",
-  "MySQL",
-  "Python",
-  "Framer Motion",
-  "Tkinter"
+  {
+    name: "C",
+    image: img1
+  },
+  {
+    name: "C++",
+    image: img2
+  },
+  {
+    name: "CSS",
+    image: img3
+  },
+  {
+    name: "Flutter",
+    image: img4
+  },
+  {
+    name: "HTML",
+    image: img5
+  },
+  {
+    name: "java",
+    image: img6
+  },
+  {
+    name: "Java Script",
+    image: img7
+  },
+  {
+    name: "MySQL",
+    image: img8
+  },
+  {
+    name: "NextJS",
+    image: img9
+  },
+  {
+    name: "Tailwind CSS",
+    image: img10
+  },
+  {
+    name: "Python",
+    image: img11
+  },
+  {
+    name: "React",
+    image: img12
+  }
 ] as const;
