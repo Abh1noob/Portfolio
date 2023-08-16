@@ -2,7 +2,7 @@
 
 import React from "react";
 import Lottie from "lottie-react";
-import { delay, motion } from "framer-motion";
+import { color, delay, motion } from "framer-motion";
 import animationData from "@/lib/animation_bot.json";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
@@ -24,7 +24,7 @@ export default function About() {
           Hello, I am
         </motion.p>
         <motion.p
-          className={`${tilt.className} text-7xl drop-shadow-2xl`}
+          className={`${tilt.className} text-7xl drop-shadow-2xl text-red-600`}
           initial={{ x: -150, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.1 }}
@@ -68,9 +68,19 @@ export default function About() {
         initial={{ y: 150, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >
-        <Lottie animationData={animationData} className="hover:scale-90 transition" />
+        <Lottie
+          animationData={animationData}
+          className="hover:scale-90 transition"
+        />
       </motion.div>
-      <h1 className="absolute bottom-0 text-slate-950 left-1/2 -translate-x-1/2">Website under development, will keep pushing code</h1>
+      <motion.h1
+        className="absolute bottom-0 text-slate-950 left-1/2 -translate-x-1/2"
+        initial={{ y: 150, x:'-50%', opacity: 0 }}
+        animate={{ y: 0, x:'-50%', opacity: 1 }}
+        transition={{ delay: 1 }}
+      >
+        Website under development, will keep pushing code
+      </motion.h1>
     </>
   );
 }

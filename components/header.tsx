@@ -15,14 +15,14 @@ export default function Header() {
       ></motion.div>
 
       <nav className="flex fixed top-[1.7rem]  items-center left-1/2 h-12 -translate-x-1/2 py-2">
-        <ul className="flex gap-10">
+        <ul className="flex gap-12">
           {links.map((link) => (
             <motion.li
               key={link.hash}
               initial={{ y: -150, x: "", opacity: 0 }}
               animate={{ y: 0, x: "", opacity: 1 }}
             >
-              <Link href={link.hash}className="hover:text-[#F5B4B4]">{link.name}</Link>
+              <Link href={link.hash}className="hover:text-[#F5B4B4] font-bold">{link.name}</Link>
             </motion.li>
           ))}
         </ul>
