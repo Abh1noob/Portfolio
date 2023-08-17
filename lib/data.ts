@@ -37,50 +37,51 @@ export const links = [
 export const skillsData = [
   {
     name: "C",
-    image: img1
+    image: img1,
   },
   {
     name: "C++",
-    image: img2
-  },
-  {
-    name: "CSS",
-    image: img3
-  },
-  {
-    name: "Flutter",
-    image: img4
-  },
-  {
-    name: "HTML",
-    image: img5
-  },
-  {
-    name: "java",
-    image: img6
-  },
-  {
-    name: "Java Script",
-    image: img7
-  },
-  {
-    name: "MySQL",
-    image: img8
-  },
-  {
-    name: "NextJS",
-    image: img9
-  },
-  {
-    name: "Tailwind CSS",
-    image: img10
+    image: img2,
   },
   {
     name: "Python",
-    image: img11
+    image: img11,
+  },
+  {
+    name: "MySQL",
+    image: img8,
+  },
+  {
+    name: "java",
+    image: img6,
+  },
+  {
+    name: "Flutter",
+    image: img4,
+  },
+  {
+    name: "HTML",
+    image: img5,
+  },
+  {
+    name: "CSS",
+    image: img3,
+  },
+  {
+    name: "Java Script",
+    image: img7,
   },
   {
     name: "React",
-    image: img12
-  }
+    image: img12,
+  },
+  {
+    name: "NextJS",
+    image: img9,
+  },
+  {
+    name: "Tailwind CSS",
+    image: img10,
+  },
+  
 ] as const;
